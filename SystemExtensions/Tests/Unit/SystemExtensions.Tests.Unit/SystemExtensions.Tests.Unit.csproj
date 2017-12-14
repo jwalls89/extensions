@@ -4,6 +4,7 @@
     <TargetFramework>netcoreapp2.0</TargetFramework>
     <AssemblyName>Walls.Julian.System.Extensions.Tests.Unit</AssemblyName>
     <RootNamespace>Walls.Julian.System.Extensions.Tests.Unit</RootNamespace>
+    <OutputType>Library</OutputType>
   </PropertyGroup>
 
   <ItemGroup>
