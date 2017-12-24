@@ -4714,6 +4714,7 @@
       "packagesPath": "C:\\Users\\j_wal\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\j_wal\\source\\repos\\extensions\\Log4Net.Extensions\\Log4Net.Extensions\\Log4Net.Extensions\\obj\\",
       "projectStyle": "PackageReference",
+      "crossTargeting": true,
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],

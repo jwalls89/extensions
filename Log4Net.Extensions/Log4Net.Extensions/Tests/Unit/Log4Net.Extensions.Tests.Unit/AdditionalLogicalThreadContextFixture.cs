@@ -1,6 +1,5 @@
 ﻿using NUnit.Framework;
 using System.Collections.Generic;
-using Walls.Julian.Log4Net.Extensions;
 
 namespace Walls.Julian.Log4Net.Extensions.Tests.Unit
 {

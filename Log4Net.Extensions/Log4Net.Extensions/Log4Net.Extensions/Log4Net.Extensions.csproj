@@ -3,7 +3,18 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <AssemblyName>Walls.Julian.Log4Net.Extensions</AssemblyName>
-    <RootNamespace>Walls.Julian.Log4Net.Extensionss</RootNamespace>
+    <RootNamespace>Walls.Julian.Log4Net.Extensions</RootNamespace>
+    <PackageId>Walls.Julian.Log4Net.Extensions</PackageId>
+    <VersionPrefix>1.0.0</VersionPrefix>
+    <Authors>Julian Walls</Authors>
+    <Description>Contains utilities and extensions built on top of log4net</Description>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <Copyright>Copyright Julian Walls</Copyright>
+    <TargetFrameworks>netstandard2.0</TargetFrameworks>   
+    <PackageTags>log4net;extensions;</PackageTags>
+    <PackageProjectUrl>https://github.com/jwalls89/extensions</PackageProjectUrl>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>git://github.com/jwalls89/extensions</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>

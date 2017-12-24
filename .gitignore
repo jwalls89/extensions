@@ -10,9 +10,11 @@
 # C# folders #
 ##############
 
-Release/
-Debug/
-bin/
+Release
+Debug
+bin
+obj
+
 
 # Visual Studio #
 #################

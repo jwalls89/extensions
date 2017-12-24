@@ -3,11 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2003
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Log4Net.Extensions", "Log4Net.Extensions\Log4Net.Extensions.csproj", "{CD19C5C5-B96A-42BD-B67D-BBA6269FE8D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Log4Net.Extensions", "Log4Net.Extensions\Log4Net.Extensions.csproj", "{CD19C5C5-B96A-42BD-B67D-BBA6269FE8D8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{66873775-DB04-4189-80FD-5FA0BE194211}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Log4Net.Extensions.Tests.Unit", "Tests\Unit\Log4Net.Extensions.Tests.Unit\Log4Net.Extensions.Tests.Unit.csproj", "{27411E9F-CE1C-45E0-A40F-2FB95E9CDC7E}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unit", "Unit", "{344DB3EE-3AEE-4406-98C8-F13DF8E67387}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Log4Net.Extensions.Tests.Unit", "Tests\Unit\Log4Net.Extensions.Tests.Unit\Log4Net.Extensions.Tests.Unit.csproj", "{C3494549-4990-4226-9912-153B25ABD209}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{776A87A0-4908-4A0B-981D-BF0767E111EC}"
+	ProjectSection(SolutionItems) = preProject
+		Build\build.cake = Build\build.cake
+		Build\build.ps1 = Build\build.ps1
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,16 +27,17 @@ Global
 		{CD19C5C5-B96A-42BD-B67D-BBA6269FE8D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD19C5C5-B96A-42BD-B67D-BBA6269FE8D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD19C5C5-B96A-42BD-B67D-BBA6269FE8D8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{27411E9F-CE1C-45E0-A40F-2FB95E9CDC7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{27411E9F-CE1C-45E0-A40F-2FB95E9CDC7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{27411E9F-CE1C-45E0-A40F-2FB95E9CDC7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{27411E9F-CE1C-45E0-A40F-2FB95E9CDC7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3494549-4990-4226-9912-153B25ABD209}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3494549-4990-4226-9912-153B25ABD209}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3494549-4990-4226-9912-153B25ABD209}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3494549-4990-4226-9912-153B25ABD209}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{27411E9F-CE1C-45E0-A40F-2FB95E9CDC7E} = {66873775-DB04-4189-80FD-5FA0BE194211}
+		{344DB3EE-3AEE-4406-98C8-F13DF8E67387} = {66873775-DB04-4189-80FD-5FA0BE194211}
+		{C3494549-4990-4226-9912-153B25ABD209} = {344DB3EE-3AEE-4406-98C8-F13DF8E67387}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BAD5D88E-20DB-4965-B9A0-115CD83C5AC9}
